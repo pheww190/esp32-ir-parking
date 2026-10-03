@@ -1,0 +1,5 @@
+## IDF Component Manager manifest
+## The Arduino core is pulled in as a managed component.
+dependencies:
+  idf: ">=5.3"
+  espressif/arduino-esp32: "^3.3.0"
