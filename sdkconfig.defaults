@@ -1,0 +1,7 @@
+# Arduino core: run setup()/loop() automatically on boot.
+CONFIG_AUTOSTART_ARDUINO=y
+
+# 4 MB flash and a roomy app partition (see partitions.csv).
+CONFIG_ESPTOOLPY_FLASHSIZE_4MB=y
+CONFIG_PARTITION_TABLE_CUSTOM=y
+CONFIG_PARTITION_TABLE_CUSTOM_FILENAME="partitions.csv"
